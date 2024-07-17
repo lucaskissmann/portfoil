@@ -1,6 +1,5 @@
 "use client"
 
-import Container from "@/components/ui/container"
 import Image from "next/image";
 import Link from "next/link"
 import NavItem from "./nav-item";
@@ -9,7 +8,6 @@ import { MenuToggle } from "./menu-toggle";
 const Navbar = () => {
 	return (
 		<div className="border-b bg-[#BEE7F9]">
-      <Container>
         <div className="relative px-4 pr-0 sm:px-6 lg:px-8 flex h-20 items-center justify-between">
           <div className="flex items-center gap-x-6">
             <Link href="https://db.tec.br/" className="ml-4 flex lg:ml-0 gap-x-2" target="_blank">
@@ -29,12 +27,10 @@ const Navbar = () => {
               <Image src="/linkedin.svg" height={30} width={30} alt="LinkedIn Icon" />
             </Link>
           </div>
-          <div className="sm:hidden ml-auto">
+          <div className="sm:hidden ml-auto pr-6">
             <MenuToggle />            
           </div>
         </div>
-
-      </Container>
     </div>
 	)
 }

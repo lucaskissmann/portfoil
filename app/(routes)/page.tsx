@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="my-16 mx-4 sm:mx-8 lg:mx-32 grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="my-16 px-4 sm:px-8 mx-auto max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-4">
       <section className="space-y-4 col-span-1">
         <div className="text-2xl font-ttsupermolot-bold">
           Olá, meu nome é
@@ -18,7 +18,7 @@ const HomePage = () => {
       <section className="flex col-span-1">
         <Image src={'/eu-portfoil.jpeg'} height={100} width={400} alt="Imagem de Lucas Kissmann" className="max-w-full h-auto" />
       </section>
-      <section className="pr-0 md:pr-32 space-y-4 col-span-1 ">
+      <section className="pr-0 md:pr-10 space-y-4 col-span-1 ">
         <h1 className="text-2xl font-ttsupermolot-bold">
           Sobre mim
         </h1>
