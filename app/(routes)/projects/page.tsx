@@ -33,6 +33,13 @@ const ProjectPage = () => {
 						image = "/microsservices.png"
 						href = "https://github.com/lucaskissmann/delivery-microsservices"
 					/>
+					<ProjectCard
+						title = "Kafka Pix"
+						technologies = "Java, Spring, Kafka, Zookeeper"
+						description = "O Projeto explora a utilização do kafka para registrar os eventos de uma aplicação de Pix. Possui um serviço de produtor que atua como uma API Rest, um serviço de consumidor e outro de stream de dados para capturar os eventos em tempo real."
+						image = "/kafka.png"
+						href = "https://github.com/lucaskissmann/kafka-pix"
+					/>
 			</section>
 		</div>
 	)
