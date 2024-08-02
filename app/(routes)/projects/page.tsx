@@ -40,6 +40,13 @@ const ProjectPage = () => {
 						image = "/kafka.png"
 						href = "https://github.com/lucaskissmann/kafka-pix"
 					/>
+					<ProjectCard
+						title = "Spring Security JWT"
+						technologies = "Java, Spring, Spring Security"
+						description = "O Projeto ilustra a utilização da biblioteca de segurança do Spring. Possui uma rota para autenticação do usuário que retorna o token de acesso. Utilizando esse token de acesso, é possível visualizar o conteúdo da rota privada."
+						image = "/security.jpg"
+						href = "https://github.com/lucaskissmann/spring-security-jwt"
+					/>
 			</section>
 		</div>
 	)
