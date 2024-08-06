@@ -47,6 +47,13 @@ const ProjectPage = () => {
 						image = "/security.jpg"
 						href = "https://github.com/lucaskissmann/spring-security-jwt"
 					/>
+					<ProjectCard
+						title = "Procecssamento Assíncrono"
+						technologies = "Java, Spring, Spring Batch"
+						description = "O projeto ilustra a criação de um job simples utilizando Spring Batch para ler e processar dados de um arquivo CSV. Para melhorar a performance, foi adotado o processamento assíncrono, permitindo a criação de múltiplos processadores e threads."
+						image = "/springbatch.png"
+						href = "https://github.com/lucaskissmann/processamento-assincrono"
+					/>
 			</section>
 		</div>
 	)
