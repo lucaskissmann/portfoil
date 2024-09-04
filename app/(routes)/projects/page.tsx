@@ -61,6 +61,13 @@ const ProjectPage = () => {
 					image = "/library_java.jpg"
 					href = "https://github.com/lucaskissmann/library-api-spring"
 				/>
+				<ProjectCard
+					title = "Livraria Frontend"
+					technologies = "NextJS, React, Axios, Vercel"
+					description = "O Projeto Livraria Frontend representa a parte de interação com o usuário, usando como base para as operações o serviço de livraria desenvolvido em Java. Essa interface possui todas as funcionalidades para gerenciamento de livros, autores, locatários e locação de livros."
+					image = "/book.jpg"
+					href = "https://github.com/lucaskissmann/library-front"
+				/>
 			</section>
 		</div>
 	)
